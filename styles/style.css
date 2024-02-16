@@ -1,13 +1,31 @@
-*{
-    margin: 0;
+*{margin: 0;}
+p {font-size: 20px;}
+h4 {font-size: 35px;}
+h3 {font-size: 45px;}
+h2 {font-size: 75px;}
+h1 {font-size: 90px;}
+.primry-color {
+    color: #ff0000;
 }
-
+.btn {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin: 30px 0;
+}
 header {
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
+    margin: 0 auto;
     color: white;
     text-align: center;
+    width: 1500px;
     height: 100vh;
 }
 
@@ -15,7 +33,7 @@ header {
     padding-top: 200px;
 }
 main {
-    max-width: 1320px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -23,6 +41,9 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.off h1, .off h2 {
+    margin-bottom: 50px;
 }
 
 .midnight {
@@ -32,7 +53,11 @@ main {
     position: relative;
 }
 
-.midnight h1, .midnight p, .midnight button {
+.m-pic {
+    width: 100%;
+}
+
+.midnight h1, .midnight p {
     margin-top: 25px;
 }
 
@@ -41,7 +66,8 @@ main {
     gap: 200px;
     align-items: center;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
+    left: 100px;
 
 }
 
@@ -60,16 +86,19 @@ main {
 
 .offer {
     display: flex;
-    gap: 50px;
+    /* gap: 0px; */
     justify-content: space-between;
     align-items: center;
 }
 .offer div {
-    width: 33%;
+    width: 30%;
 }
-
+.offer h1, .offer h2, .offer h4, .offer p {
+    margin-bottom: 20px;
+}
 .o-img {
-    padding: 20px 0 20px 20px;
+    width: 80%;
+    padding: 25px;
     border: 15px solid #ff0000;
     border-radius: 50%;
 }
@@ -97,6 +126,10 @@ main {
     right: 300px;
 }
 
+.holi-pic {
+    width: 100%;
+}
+
 .portfolio {
     margin: 100px 0;
 }
@@ -106,14 +139,22 @@ main {
 }
 
 .p-image {
-
+    width: 100%;
 }
 
 .p-row1, .p-row2 {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
-    margin-top: 24px;
+    margin-top: 20px;
 }
+.p-row1:hover, .p-row2:hover {
+    display: flex;
+    flex-direction: row-reverse;
+    fl
+
+}
+
 
 .newsletter {
     text-align: center;
@@ -123,31 +164,45 @@ main {
     padding: 50px 0;
 }
 
-.newsletter h2, .newsletter p, .newsletter input {
+.newsletter h2, .newsletter p {
     margin-top: 25px;
 }
 
-
+.newsletter input {
+    margin-top: 100px;
+    padding: 25px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.newsletter input[type="email"] {
+    border: 0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.newsletter input[type="submit"] {
+    color: white;
+    background-color: #ff0000;
+    border: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
 footer {
     color: white;
     background-color: black;
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 250px;
 }
-
 .f-description {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
 }
-
 .f-link {
     padding: 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
 }
-
 .f-describe {
     padding-top: 30px;
     display: flex;
