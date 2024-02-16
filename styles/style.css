@@ -30,23 +30,25 @@ main {
     justify-content: center;
     color: white;
     position: relative;
-    /* text-align: center; */
 }
 
-.midnight img {
-
+.midnight h1, .midnight p, .midnight button {
+    margin-top: 25px;
 }
 
 .mn-text {
+    display: flex;
+    gap: 200px;
+    align-items: center;
     position: absolute;
     bottom: 100px;
-    left: 200px;
 
 }
 
+
 .hotel {
     text-align: center;
-    margin: 50px 100px;
+    margin: 75px 0;
     padding: 50px;
     background-color: #ffe7e7;
     border-radius: 10px;
@@ -56,9 +58,51 @@ main {
     margin-bottom: 25px;
 }
 
+.offer {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer div {
+    width: 33%;
+}
+
+.o-img {
+    padding: 20px 0 20px 20px;
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+}
+
 .holidays {
     text-align: center;
+    margin-top: 100px;
 
+}
+
+.holidays h4, .holidays h1, .holidays p {
+    margin-top: 25px;
+}
+
+.holi-img {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+
+#img-g44 {
+    position: absolute;
+    top: 40%;
+    right: 300px;
+}
+
+.portfolio {
+    margin: 100px 0;
+}
+
+.portfolio h2, .portfolio p {
+    margin-top: 20px;
 }
 
 .p-image {
@@ -67,14 +111,45 @@ main {
 
 .p-row1, .p-row2 {
     display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
 }
 
 .newsletter {
     text-align: center;
+    background-color: #fff2f2;
+    margin: 50px 0;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.newsletter h2, .newsletter p, .newsletter input {
+    margin-top: 25px;
 }
 
 
 footer {
     color: white;
     background-color: black;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.f-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.f-link {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.f-describe {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
