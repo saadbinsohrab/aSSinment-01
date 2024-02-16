@@ -14,6 +14,10 @@ header {
 .banner {
     padding-top: 200px;
 }
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
 
 .off {
     display: flex;
@@ -54,5 +58,23 @@ header {
 
 .holidays {
     text-align: center;
-    
+
+}
+
+.p-image {
+
+}
+
+.p-row1, .p-row2 {
+    display: flex;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
 }
