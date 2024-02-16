@@ -1,0 +1,22 @@
+/* * {
+    margin: 0;
+} */
+
+header {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.banner {
+    padding-top: 200px;
+}
+
+.off {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
