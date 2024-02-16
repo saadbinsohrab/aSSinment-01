@@ -25,7 +25,7 @@ header {
     margin: 0 auto;
     color: white;
     text-align: center;
-    width: 1500px;
+    width: 85%;
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@ header {
     padding-top: 200px;
 }
 main {
-    max-width: 1500px;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -41,6 +41,7 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 100px;
 }
 .off h1, .off h2 {
     margin-bottom: 50px;
@@ -144,14 +145,13 @@ main {
 
 .p-row1, .p-row2 {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .p-row1:hover, .p-row2:hover {
     display: flex;
     flex-direction: row-reverse;
-    fl
 
 }
 
